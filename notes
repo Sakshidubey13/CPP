@@ -1,0 +1,18 @@
+lacture 2 what is oop ?
+what is oop ? 
+oop stand for object oriented programming ,it is way of programming. which used class and object.
+
+class --> * class is one type of user define dataType.
+* class is blueprint to create object .class is collection of methods and attribbutes.
+datatype -->type of data 
+blueprint -->one type of structure of real object 
+collection =-> group 
+attributes --> variables declared in the class.
+methods --> function declare in the class 
+object -> object is an instance of the class . object is representative of the class .object is used to access methods and attributes declared in the class.
+* we need to declare object to use class.
+* object is one type of variable .
+
+
+
+
