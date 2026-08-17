@@ -12,6 +12,17 @@ public:
     string color;
     string type;
     bool isEV;
+
+    // function create
+    void input(int e, string m, string c, string t, bool ev)
+    {
+        engineNo = e;
+        modelName = m;
+        color = c;
+        type = t;
+
+        isEV = ev;
+    }
 };
 
 int main()
@@ -23,7 +34,7 @@ int main()
     // string type = "suv";
     // bool isEv = false;
     // if car name ka variable multiple time uss kar sakte haii.
-    //like class is a image and object is a real photo
+    // like class is a image and object is a real photo
     Car c1; // object make c1 => variale  .
             // data storage format
     c1.color = "red";
