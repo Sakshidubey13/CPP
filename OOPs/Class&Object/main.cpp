@@ -13,6 +13,7 @@ public:
     string type;
     bool isEV;
 
+    
     // function create
     void input(int e, string m, string c, string t, bool ev)
     {
