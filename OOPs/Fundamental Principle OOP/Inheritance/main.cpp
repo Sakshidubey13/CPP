@@ -7,6 +7,7 @@ using namespace std;
 //3.multiple inheritance
 //4.hirechical inheritance
 //5. hyabrid inheritance
+
 int main(){
     return 0;
 }
