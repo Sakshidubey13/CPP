@@ -12,7 +12,7 @@ class Distance
 public:
     void set()
     {
-        
+
         cout << "Enter first distance : " << endl;
         cout << "Feet : ";
         cout << "Inch : ";
@@ -24,6 +24,7 @@ public:
         cout << "Inch : ";
         cin >> feet2;
         cin >> inch2;
+        
     }
 };
 
