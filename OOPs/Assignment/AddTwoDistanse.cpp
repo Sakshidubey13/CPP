@@ -24,7 +24,6 @@ public:
         cin >> feet2;
         cin >> inch2;
     }
-   
 };
 
 int main()
