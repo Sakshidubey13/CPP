@@ -16,7 +16,6 @@ public:
         modelName = m;
         color = c;
         type = t;
-
         isEV = ev;
     }
 };
@@ -34,5 +33,5 @@ int main()
     cout << c2.modelName << endl;
 
     return 0;
-    
+
 }
