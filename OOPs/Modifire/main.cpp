@@ -11,6 +11,7 @@ using namespace std;
 // Any attributes and methods are accessible in the same class.
 // In class by   default access is private.
 
+
 // Local variable  and global variable ;
 // Local variable ==> variable declared inside the function . Local variable only access within the same function.
 
