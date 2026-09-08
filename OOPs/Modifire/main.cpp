@@ -37,7 +37,7 @@ public:
     void input(int grid, string name, string course) // Local variable
     {
         int x;
-        this->grid = grid; // this keyword ka usse karne per ban gya global variable
+        this->grid = grid; // this -> keyword ka usse karne per ban gya global variable
 
         this->name = name;
         this->course = course;
