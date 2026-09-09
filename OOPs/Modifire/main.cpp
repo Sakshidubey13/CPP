@@ -38,7 +38,6 @@ public:
     {
         int x;
         this->grid = grid; // this -> keyword ka usse karne per ban gya global variable
-
         this->name = name;
         this->course = course;
     }
