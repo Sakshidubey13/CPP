@@ -11,8 +11,8 @@ private:
     int price;
     string processor;
 
+    
 public:
-    // Parameterized constructor
     Laptop(string n, float p, string processor)
     {
         this->name = n;
