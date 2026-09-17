@@ -8,6 +8,10 @@ C++ Language - Practical
 <img width="1004" height="71" alt="image" src="https://github.com/user-attachments/assets/7b427736-fa2c-46a3-b894-b9985b943025" />
 
 4.Extend the `Shape` hierarchy from Question 3 to include a virtual function `displayDetails()`. Implement the `displayDetails()` function in each derived class to print information specific to the shape. Create an array of `Shape` pointers, pointing to objects of different shapes. Demonstrate polymorphism by calling the `displayDetails()` function for each object.
+<img width="973" height="144" alt="image" src="https://github.com/user-attachments/assets/7178cfc3-2f58-4079-bb47-6f21b622e90e" />
+
 5. Define an abstract class `Vehicle` with pure virtual functions `startEngine()` and `drive()`. Implement concrete classes `Car` and `Bike` that inherit from `Vehicle`. Demonstrate polymorphism by creating an array of `Vehicle` pointers, pointing to objects of both `Car` and `Bike`. Call the `startEngine()` and `drive()` functions for each object.
+<img width="1038" height="162" alt="image" src="https://github.com/user-attachments/assets/9738a706-c046-4d87-bacc-755fb035706b" />
+
 
 
