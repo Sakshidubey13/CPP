@@ -30,7 +30,7 @@ public:
         totalVehicles--;
     }
 
-    //set
+    // set
     void setVehicleID(int id)
     {
         this->vehicleID = id;
@@ -51,7 +51,7 @@ public:
         this->year = year;
     }
 
-    //get
+    // get
     int getVehicleID()
     {
         return this->vehicleID;
@@ -72,7 +72,7 @@ public:
         return this->year;
     }
 
-    //input
+    // input
     virtual void setVehicle()
     {
         cout << "Enter Vehicle ID : ";
@@ -88,7 +88,7 @@ public:
         cin >> this->year;
     }
 
-//output
+    // output
     virtual void getVehicle()
     {
         cout << endl;
@@ -223,7 +223,6 @@ public:
 // AIRCRAFT
 // BASE CLASS FOR MULTIPLE INHERITANCE
 
-
 class Aircraft
 {
 private:
@@ -334,8 +333,6 @@ public:
     }
 };
 
-
-
 int main()
 {
     // Array of Vehicle pointers
@@ -379,7 +376,6 @@ int main()
             cout << "Car Added Successfully!" << endl;
         }
 
-
         else if (choice == 2)
         {
             ElectricCar *car = new ElectricCar();
@@ -407,7 +403,7 @@ int main()
             cout << endl;
             cout << "Sports Car Added Successfully!" << endl;
         }
-    else if (choice == 4)
+        else if (choice == 4)
         {
             FlyingCar *car = new FlyingCar();
 
@@ -516,7 +512,6 @@ int main()
         }
 
     } while (choice != 10);
-    // DELETE ALL OBJECTS  
     for (int i = 0; i < vehicleCount; i++)
     {
         delete vehicles[i];
