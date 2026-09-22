@@ -10,7 +10,6 @@ private:
     char source[50];
     char destination[50];
     char trainTime[10];
-
     static int trainCount;
 
 public:
@@ -133,7 +132,6 @@ public:
 };
 
 int Train::trainCount = 0;
-
 class RailwaySystem
 {
 private:
@@ -186,7 +184,6 @@ public:
     void searchTrainByNumber(int number)
     {
         bool found = false;
-
         for (int i = 0; i < this->totalTrains; i++)
         {
             if (this->trains[i].getTrainNumber() == number)
@@ -199,7 +196,6 @@ public:
                 break;
             }
         }
-
         if (!found)
         {
             cout << "\nTrain with number "
@@ -208,27 +204,23 @@ public:
     }
 };
 
-
 int main()
 {
     RailwaySystem railway;
-
     int choice;
     int searchNumber;
 
     do
     {
         cout << "     RAILWAY RESERVATION SYSTEM" << endl<<endl;
-
         cout << "1. Add New Train Record" << endl;
         cout << "2. Display All Train Records" << endl;
         cout << "3. Search Train by Number" << endl;
         cout << "4. Display Total Train Count" << endl;
         cout << "5. Exit" << endl;
-
         cout << "Enter your choice: ";
         cin >> choice;
-
+    
         switch (choice)
         {
         case 1:
@@ -242,7 +234,6 @@ int main()
         case 3:
             cout << "\nEnter Train Number to search: ";
             cin >> searchNumber;
-
             railway.searchTrainByNumber(searchNumber);
             break;
 
