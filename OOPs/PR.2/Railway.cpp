@@ -44,27 +44,22 @@ public:
     }
 
     // setters
-
     void setTrainNumber(int trainNumber)
     {
         this->trainNumber = trainNumber;
     }
-
     void setTrainName(const char trainName[])
     {
         strcpy(this->trainName, trainName);
     }
-
     void setSource(const char source[])
     {
         strcpy(this->source, source);
     }
-
     void setDestination(const char destination[])
     {
         strcpy(this->destination, destination);
     }
-
     void setTrainTime(const char trainTime[])
     {
         strcpy(this->trainTime, trainTime);
@@ -75,27 +70,22 @@ public:
     {
         return this->trainNumber;
     }
-
     const char *getTrainName()
     {
         return this->trainName;
     }
-
     const char *getSource()
     {
         return this->source;
     }
-
     const char *getDestination()
     {
         return this->destination;
     }
-
     const char *getTrainTime()
     {
         return this->trainTime;
     }
-
 
     void inputTrainDetails()
     {
@@ -143,7 +133,6 @@ public:
     {
         this->totalTrains = 0;
     }
-
     // Add Train
     void addTrain()
     {
